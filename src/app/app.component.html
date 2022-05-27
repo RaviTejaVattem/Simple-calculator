@@ -1,0 +1,59 @@
+<!-- <input type="text" placeholder="calc" class='user-input' />
+
+<div class="key-container">
+  <div class="numbers-special-keys">
+    <div class="special-keys">
+      <button class="number-keys" (click)="keyPressed('ac')">AC</button>
+      <button class="number-keys" (click)="keyPressed('+/-')">+/-</button>
+      <button class="number-keys" (click)="keyPressed('%')">%</button>
+    </div>
+
+    <div class="only-numbers">
+      <div class="button-container">
+        <button class="number-keys" (click)="keyPressed(9)">9</button>
+        <button class="number-keys" (click)="keyPressed(8)">8</button>
+        <button class="number-keys" (click)="keyPressed(7)">7</button>
+        <button class="number-keys" (click)="keyPressed(6)">6</button>
+        <button class="number-keys" (click)="keyPressed(5)">5</button>
+        <button class="number-keys" (click)="keyPressed(4)">4</button>
+        <button class="number-keys" (click)="keyPressed(3)">3</button>
+        <button class="number-keys" (click)="keyPressed(2)">2</button>
+        <button class="number-keys" (click)="keyPressed(1)">1</button>
+      </div>
+      <button class="number-keys" (click)="keyPressed(0)">0</button>
+      <button class="number-keys" (click)="keyPressed('.')">.</button>
+    </div>
+  </div>
+
+  <div class="math-keys">
+    <button class="number-keys" (click)="keyPressed('/')">/</button>
+    <button class="number-keys" (click)="keyPressed('*')">*</button>
+    <button class="number-keys" (click)="keyPressed('-')">-</button>
+    <button class="number-keys" (click)="keyPressed('+')">+</button>
+    <button class="number-keys" (click)="keyPressed('=')">=</button>
+  </div>
+</div> -->
+
+<input type="text" placeholder="calc" class="user-input" #userinput />
+
+<div class="key-container">
+  <button class="special-keys" (click)="keyPressed('ac')">AC</button>
+  <button class="special-keys" (click)="keyPressed('+/-')">+/-</button>
+  <button class="special-keys" (click)="keyPressed('%')">%</button>
+  <button class="math-keys" (click)="keyPressed('/')">/</button>
+  <button class="number-keys" (click)="keyPressed(7)">7</button>
+  <button class="number-keys" (click)="keyPressed(8)">8</button>
+  <button class="number-keys" (click)="keyPressed(9)">9</button>
+  <button class="math-keys" (click)="keyPressed('*')">*</button>
+  <button class="number-keys" (click)="keyPressed(4)">4</button>
+  <button class="number-keys" (click)="keyPressed(5)">5</button>
+  <button class="number-keys" (click)="keyPressed(6)">6</button>
+  <button class="math-keys" (click)="keyPressed('-')">-</button>
+  <button class="number-keys" (click)="keyPressed(1)">1</button>
+  <button class="number-keys" (click)="keyPressed(2)">2</button>
+  <button class="number-keys" (click)="keyPressed(3)">3</button>
+  <button class="math-keys" (click)="keyPressed('+')">+</button>
+  <button class="number-keys" (click)="keyPressed(0)">0</button>
+  <button class="number-keys" (click)="keyPressed('.')">.</button>
+  <button class="math-keys" (click)="keyPressed('=')">=</button>
+</div>
